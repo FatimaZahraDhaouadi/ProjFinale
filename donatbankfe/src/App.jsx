@@ -43,7 +43,7 @@ function App() {
         <Route path="/process" element={<Process/>}/>
         <Route path="/preparing" element={<Preparing/>}/>
         <Route path="/post" element={<Post/>}/>
-        <Route path="/bookings" element={<Bookings/>}/>
+        <Route path="/bookings/:id" element={<Bookings/>}/>
 
         <Route path="/more" element={<More />} />
         <Route path="/moren2" element={<Moren2 />} />

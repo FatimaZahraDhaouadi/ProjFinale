@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.digitazon.donationbankbe.model.Reservation;
-import com.digitazon.donationbankbe.repository.UserRepository;
 import com.digitazon.donationbankbe.service.ReservationService;
 
 @RestController
@@ -27,8 +26,6 @@ public class ReservationRest {
     @Autowired
     ReservationService reservationService;
 
-    @Autowired
-    UserRepository userRepository;
 
     @GetMapping("/all")
     public ResponseEntity<List<Reservation>> getAllReservation() {

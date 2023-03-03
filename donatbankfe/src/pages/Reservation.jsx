@@ -4,7 +4,8 @@ import { useNavigate} from "react-router-dom";
 import Footer from "../components/Footer";
 import "../style/Reservation.css";
 
-function Reservation() {
+function Reservation({onBookings}) {
+  
   const [bookingData, setBookingData] = useState({
     dateTime: "",
     donationType: "",
@@ -42,15 +43,16 @@ function Reservation() {
         }
       })
       .then((data) => {
-        navigate(`/bookings/${data.id}`); // reindirizza l'utente alla pagina dei dettagli della prenotazione appena creata
+        navigate(`/bookings/${data.id}`); 
       })
       .catch((error) => console.log(error));
-ì  };
+  };
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setBookingData({ ...bookingData, [name]: value });
   };
+  
   return (
     <>
       <Navbar />
@@ -84,7 +86,7 @@ function Reservation() {
                 </select>
               </div>{" "}
               <div className="text-center mt-3">
-                <button type="submit" className="btn btn-outline-danger" onClick={() => navigate("/bookings")}>
+                <button type="submit" className="btn btn-outline-danger">
                   BOOK NOW
                 </button>
                 <br />

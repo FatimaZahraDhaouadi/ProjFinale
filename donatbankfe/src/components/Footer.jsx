@@ -28,7 +28,7 @@ function Footer() {
         <div className="row container-fluid text-white py-4  ">
           <div className="col-4 ">
             <img
-              src="src\icones\logo1.png"
+              src="/src/icones/logo1.png"
               className="logo d-inline-block inline-text-top img-fluid"
               width="20%"
               height="20%"
@@ -58,7 +58,7 @@ function Footer() {
             <div className="container-fluid">
               <Link className="navbar-brand" href="#">
                 <img
-                  src="src\icones\instagg.png"
+                  src="/src/icones/instagg.png"
                   width="33"
                   height="28"
                   className="d-inline-block align-text-top"
@@ -67,7 +67,7 @@ function Footer() {
 
               <Link className="navbar-brand" href="#">
                 <img
-                  src="src\icones\fb.png"
+                  src="/src/icones/fb.png"
                   width="33"
                   height="28"
                   className="d-inline-block align-text-top"
@@ -76,7 +76,7 @@ function Footer() {
 
               <Link className="navbar-brand" href="#">
                 <img
-                  src="src\icones\linkedln.png"
+                  src="/src/icones/linkedln.png"
                   width="33"
                   height="28"
                   className="d-inline-block align-text-top"
@@ -85,7 +85,7 @@ function Footer() {
 
               <Link className="navbar-brand" href="#">
                 <img
-                  src="src\icones\twitt.png"
+                  src="/src/icones/twitt.png"
                   width="33"
                   height="28"
                   className="d-inline-block align-text-top"
@@ -94,7 +94,7 @@ function Footer() {
 
               <Link className="navbar-brand" href="#">
                 <img
-                  src="src\icones\gith.png"
+                  src="/src/icones/gith.png"
                   width="33"
                   height="28"
                   className="d-inline-block align-text-top"

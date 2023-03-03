@@ -47,20 +47,7 @@ public class UserRest {
             return new ResponseEntity<>(user, HttpStatus.OK);
         }
     }
-    /*
-     * @GetMapping("/checkemail/{email}")
-     * public boolean checkEmailExists(String email) {
-     * User user = userRepository.findByEmail(email);
-     * System.out.println("User found by email: " + user);
-     * return user != null;
-     * }
-     * 
-     * @GetMapping("/email/{email}")
-     * public ResponseEntity<User> getUserByEmail(@PathVariable String email) {
-     * return new ResponseEntity<>(userService.getUserByEmail(email),
-     * HttpStatus.OK);
-     * }
-     */
+    
 
     @GetMapping("/all")
     public ResponseEntity<List<User>> getAllUser() {
@@ -74,8 +61,7 @@ public class UserRest {
         return new ResponseEntity<>(userService.findUserById(id), HttpStatus.OK);
     }
 
-    // faccio questo get perchè l'email deve essere verificata se esiste prima cosi
-    // da poter fare un confronto e poter accedere alla parte della prenotazione
+   
     @PostMapping("/create")
     public ResponseEntity<User> createUser(@RequestBody User newUser) {
 
