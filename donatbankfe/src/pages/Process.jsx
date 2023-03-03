@@ -53,7 +53,7 @@ function Process() {
         <br />
       </div>
 
-      <div className="bg-dark">
+      <div className="bg-light">
         <br />
         <div className="cardProcess mb-3 bg-light">
           <div className="row g-0">
