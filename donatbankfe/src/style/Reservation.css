@@ -1,0 +1,35 @@
+/*reservation+logIn.css*/
+
+.bglog{
+  background-image:url("/src/icones/bglog.png");
+  background-size: 400px;
+  background-repeat: repeat-y;
+}
+.cardlog{
+  margin:auto;
+  width: 60%;
+  
+  border-radius:89%;
+  border-width: 10px;
+  border-color: #414141;
+  border-style: solid;
+}
+.bgres{
+  background-image:url("/src/icones/imgtab5.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  
+
+}
+
+.cardres{
+  margin:auto;
+  width: 40%;
+}
+.bgBk{
+  background-image:url("/src/icones/final.jpg");
+  background-size: 30%;
+  background-repeat: no-repeat;
+}

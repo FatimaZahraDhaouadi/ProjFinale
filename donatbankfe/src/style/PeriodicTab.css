@@ -1,0 +1,38 @@
+/*.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(1, 1fr)
+    grid-gap: 10px;
+    background-color: #ffffff;
+    font-size: 10px;
+  } */
+
+.table-row {
+    display: grid;
+/*grid-template-columns: repeat(18);*/
+}
+ 
+.periodic-table div {
+    display: flex;
+    align-items: center;
+    /*align-items: center;*/
+    justify-content: center;
+    background-color: #ffffff;
+    /*background-color: #fff;*/
+    border: 1px solid #000;
+    padding: 6px;
+  }
+
+/*seleziono ciò che si trova in posizione dispari --even pari--*/
+.periodic-table .table-row div:nth-child(odd) {
+    background-color: #c00000;
+  }
+.periodic-table .table-row div:nth-child(even) {
+    background-color: #bbbbbb;
+}
+
+  .periodic-table .table-row div{
+    cursor: pointer;
+  }
+
+  

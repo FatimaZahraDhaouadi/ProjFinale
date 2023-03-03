@@ -1,0 +1,102 @@
+/*.carouselSlide{
+  margin-left: 17%;
+  margin-right: 0px;
+  width: 65%;
+  position: absolute 0;
+}*/
+.carusimg{
+  height: 60vh;
+  width: 85vh;
+  object-fit: cover;
+}
+
+.textslide{
+width: 215px;
+border-radius: 40px;
+}
+
+.navBtn{
+  height:7vh;
+  width: 62%;
+}
+
+
+.nav-link {
+  width:180px;
+}
+
+.backgroundimg{
+  background-image: url('/src/icones/gr.jpg');
+  background-size:30% ;/*cover*/
+  background-position:right 60px;
+
+}
+
+.logo{
+  background-color: rgba(242, 242, 242,0.4);
+  border-radius: 100%;
+}
+
+.tit2{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.card{
+  margin:auto;
+  width: 55%;
+}
+.cardProcess{
+  margin:auto;
+  width: 55%; 
+  border: none; 
+  border-image: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 107, 107) 35%, rgb(251, 248, 163) 100%) 1; /* imposta il bordo come il gradient specificato */
+  border-style: solid; 
+  border-width: 3px; 
+}
+
+.counter .count div{
+  cursor:pointer;
+}
+
+.containerform{
+  background-image:url(/src/icones/form.png);
+  background-size: 60%;
+  margin-left: 470px;
+  margin-right: 470px;
+  background-attachment: fixed;
+  background-position:center 85%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgLeader{
+  transform: scaleX(-1);
+  position: absolute;
+  right: 0;
+}
+
+.map{
+  width: 100%,
+
+}
+
+.imgloc{
+  background-image:url(/src/icones/bglocc.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.bgtab{
+  background-image: url("/src/icones/imgtab6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.bgProcess{
+  background-color: rgba(255, 223, 127, 0.45);
+}
