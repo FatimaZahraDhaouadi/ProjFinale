@@ -4,7 +4,7 @@ import { useNavigate} from "react-router-dom";
 import Footer from "../components/Footer";
 import "../style/Reservation.css";
 
-function Reservation({onBookings}) {
+function Reservation({}) {
   
   const [bookingData, setBookingData] = useState({
     dateTime: "",

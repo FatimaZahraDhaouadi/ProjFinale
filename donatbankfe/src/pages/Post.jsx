@@ -2,8 +2,11 @@ import "../style/Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
 
 function Post() {
+  const navigate = useNavigate();
+
   return (
     <>
       <Navbar />

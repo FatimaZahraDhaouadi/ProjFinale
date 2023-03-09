@@ -15,6 +15,7 @@ function LogIn({ onLogin }) {
     event.preventDefault();
     setIsLoading(true);
     setError(null);
+    
     const user = {
       email: email,
     };
@@ -84,12 +85,7 @@ function LogIn({ onLogin }) {
         </div>
       </div>
 
-      {/*   {!isLoading && email &&(
-          <button onClick={() => navigate("/reservation")}>
-            Vai alla pagina di prenotazione
-          </button>
-        )} 
-         */}
+   
       <br />
       <Footer />
     </>

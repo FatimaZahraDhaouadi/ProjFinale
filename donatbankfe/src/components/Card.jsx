@@ -10,13 +10,12 @@ function Card({ time }) {
   useEffect(() => {
     const intervallo = setInterval(() => {
       setContatore((contatore) => contatore + 1);
-    }, 2000); //incrementa il contatore ogni secondo
+    }, 2000); //incrementa il contatore ogni totsec
 
     return () => clearInterval(intervallo);
   }, []);
 
   if (contatore >= time) {
-    //mi ferma il count quandoa rriva 2 millisec
     clearInterval(intervallo);
   }
 

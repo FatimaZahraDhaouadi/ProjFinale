@@ -43,7 +43,6 @@ const Registration = () => {
     setLoading(false);
   };
 
-  
 
   const validateName = (e) => {
     const valueName = e.target.value;
